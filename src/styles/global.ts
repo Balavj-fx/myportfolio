@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     --black: #212121;
     --green: #23ce6b;
     --blue: #016fb9;
+    --light-blue-transparent: rgba(1, 111, 185, 0.2); // Added transparent light blue
     scroll-padding-top: 10rem;
 
     &.light{
@@ -22,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
 
       header.header-fixed{
         transition: 0.5s;
-        background-color: #f5f5f550;
+        background-color: var(--light-blue-transparent); // Changed to transparent light blue
         a{
           transition: 0.5s;
           color: black;
@@ -37,7 +38,7 @@ export const GlobalStyle = createGlobalStyle`
 
       footer.footer{
         transition: 0.5s;
-        background-color: rgba(0,0,0,0.1);
+        background-color: var(--light-blue-transparent); // Changed to transparent light blue
         color: var(--black);
       }
 
@@ -107,12 +108,8 @@ export const GlobalStyle = createGlobalStyle`
     cursor: not-allowed;
   }
 
-
   .logo{
     font-size: 3rem;
     color: #FFFF;
-    // &::first-letter{
-    //   color: var(--green);
-    // }
   }
 `
