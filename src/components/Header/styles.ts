@@ -24,7 +24,7 @@ export const Container = styled.header`
     a{
       color: #FFFF;
       padding: 0.6rem;
-      font-family: 'Red Hat Display', sans-serif;
+      font-family: 'red Hat Display', sans-serif;
       font-weight: 500;
       text-transform: uppercase;
       transition: filter 0.25s;
@@ -101,7 +101,7 @@ export const Container = styled.header`
     text-indent: -9999px;
     width: 55px;
     height: 30px;
-    background: var(--green);
+    background: var(--blue);
     display: block;
     justify-content: center;
     align-items: center;
@@ -169,7 +169,7 @@ export const Container = styled.header`
       top: 0;
       left: 0;
       transition: opacity 0.25s;
-      background-color: var(--green);
+      background-color: var(--blue);
 
       a.button{
         background-color: var(--pink);

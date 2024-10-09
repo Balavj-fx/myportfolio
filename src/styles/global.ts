@@ -4,7 +4,7 @@ export const GlobalStyle = createGlobalStyle`
   :root{
     --pink: #E31F71;
     --black: #212121;
-    --green: #23ce6b;
+    --blue: #23ce6b;
     --blue: #016fb9;
     --light-blue-transparent: rgba(1, 111, 185, 0.2); // Added transparent light blue
     scroll-padding-top: 10rem;
@@ -82,7 +82,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, input, textarea, button{
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'red Hat Display', sans-serif;
     font-weight: 400;
   }
 
@@ -93,7 +93,7 @@ export const GlobalStyle = createGlobalStyle`
   button, .button{
     border: none;
     cursor: pointer;
-    background-color: var(--green);
+    background-color: var(--blue);
     color: #FFFF;
     border-radius: 2rem;
     font-weight: 500;
